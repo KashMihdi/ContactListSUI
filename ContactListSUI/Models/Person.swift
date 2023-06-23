@@ -13,6 +13,7 @@ struct Person: Identifiable {
     let surname: String
     let email: String
     let phoneNumber: String
+    let avatar: String
     
     var fullName: String {
         "\(name) \(surname)"
@@ -26,12 +27,14 @@ struct Person: Identifiable {
         let surnames = DataStore.shared.surnames.shuffled()
         let emails = DataStore.shared.emails.shuffled()
         let phones = DataStore.shared.phones.shuffled()
+        let avatars = DataStore.shared.avatars.shuffled()
         
         let iterationCount = min(
             names.count,
             surnames.count,
             emails.count,
-            phones.count
+            phones.count,
+            avatars.count
         )
         
         for index in 0..<iterationCount {
@@ -39,12 +42,26 @@ struct Person: Identifiable {
                 name: names[index],
                 surname: surnames[index],
                 email: emails[index],
-                phoneNumber: phones[index]
+                phoneNumber: phones[index],
+                avatar: avatars[index]
             )
             
             persons.append(person)
         }
         
         return persons
+    }
+}
+
+enum Icon {
+    case phone, mail
+    
+    var pictureName: String {
+        switch self {
+        case .mail:
+            return "tray"
+        case .phone:
+            return "phone"
+        }
     }
 }

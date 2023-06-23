@@ -63,5 +63,18 @@ final class DataStore {
         "459477625"
     ]
     
+    let avatars = [
+        "figure.american.football",
+        "figure.archery",
+        "figure.australian.football",
+        "figure.badminton",
+        "figure.barre",
+        "figure.baseball",
+        "figure.basketball",
+        "figure.bowling",
+        "figure.boxing",
+        "figure.climbing"
+    ]
+    
     private init() {}
 }

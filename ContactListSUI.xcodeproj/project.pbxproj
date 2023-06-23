@@ -9,26 +9,26 @@
 /* Begin PBXBuildFile section */
 		FD1566C72A454F5600D0BE6C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566C62A454F5600D0BE6C /* DataStore.swift */; };
 		FD1566C92A454F8F00D0BE6C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566C82A454F8F00D0BE6C /* Person.swift */; };
-		FD1566CB2A4551CA00D0BE6C /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566CA2A4551CA00D0BE6C /* ContactDetailView.swift */; };
-		FD1566CD2A4553F600D0BE6C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566CC2A4553F600D0BE6C /* TabView.swift */; };
+		FD1566CB2A4551CA00D0BE6C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566CA2A4551CA00D0BE6C /* DetailView.swift */; };
+		FD1566CD2A4553F600D0BE6C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566CC2A4553F600D0BE6C /* RootView.swift */; };
 		FD2583802A454C20006EC8EB /* ContactListSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */; };
-		FD2583842A454C21006EC8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2583832A454C21006EC8EB /* Assets.xcassets */; };
-		FD2583872A454C21006EC8EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2583862A454C21006EC8EB /* Preview Assets.xcassets */; };
-		FD2583942A454E6A006EC8EB /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2583932A454E6A006EC8EB /* ContactListView.swift */; };
-		FDB5EFCC2A45F0A600C8EDA1 /* NumberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5EFCB2A45F0A600C8EDA1 /* NumberListView.swift */; };
+		FD2583942A454E6A006EC8EB /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2583932A454E6A006EC8EB /* ContactsView.swift */; };
+		FD5A33542A45FC86007C5EA9 /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A33532A45FC86007C5EA9 /* ContactRowView.swift */; };
+		FD5A33592A460DEA007C5EA9 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = FD5A33582A460DEA007C5EA9 /* Preview Content */; };
+		FDB5EFCC2A45F0A600C8EDA1 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5EFCB2A45F0A600C8EDA1 /* NumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD1566C62A454F5600D0BE6C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		FD1566C82A454F8F00D0BE6C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		FD1566CA2A4551CA00D0BE6C /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
-		FD1566CC2A4553F600D0BE6C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		FD1566CA2A4551CA00D0BE6C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FD1566CC2A4553F600D0BE6C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FD25837C2A454C20006EC8EB /* ContactListSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSUIApp.swift; sourceTree = "<group>"; };
-		FD2583832A454C21006EC8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD2583862A454C21006EC8EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FD2583932A454E6A006EC8EB /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
-		FDB5EFCB2A45F0A600C8EDA1 /* NumberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListView.swift; sourceTree = "<group>"; };
+		FD2583932A454E6A006EC8EB /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		FD5A33532A45FC86007C5EA9 /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		FD5A33582A460DEA007C5EA9 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		FDB5EFCB2A45F0A600C8EDA1 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,25 +61,33 @@
 		FD25837E2A454C20006EC8EB /* ContactListSUI */ = {
 			isa = PBXGroup;
 			children = (
-				FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */,
-				FD2583932A454E6A006EC8EB /* ContactListView.swift */,
-				FD1566CA2A4551CA00D0BE6C /* ContactDetailView.swift */,
-				FDB5EFCB2A45F0A600C8EDA1 /* NumberListView.swift */,
-				FD1566CC2A4553F600D0BE6C /* TabView.swift */,
+				FD5A33552A45FD10007C5EA9 /* Views */,
 				FDB5EFCD2A45F57700C8EDA1 /* Services */,
 				FDB5EFCE2A45F58800C8EDA1 /* Models */,
-				FD2583852A454C21006EC8EB /* Preview Content */,
+				FD5A33582A460DEA007C5EA9 /* Preview Content */,
+				FD5A33522A45FAFF007C5EA9 /* App */,
 			);
 			path = ContactListSUI;
 			sourceTree = "<group>";
 		};
-		FD2583852A454C21006EC8EB /* Preview Content */ = {
+		FD5A33522A45FAFF007C5EA9 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				FD2583832A454C21006EC8EB /* Assets.xcassets */,
-				FD2583862A454C21006EC8EB /* Preview Assets.xcassets */,
+				FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */,
 			);
-			path = "Preview Content";
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD5A33552A45FD10007C5EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD1566CC2A4553F600D0BE6C /* RootView.swift */,
+				FD2583932A454E6A006EC8EB /* ContactsView.swift */,
+				FDB5EFCB2A45F0A600C8EDA1 /* NumberView.swift */,
+				FD1566CA2A4551CA00D0BE6C /* DetailView.swift */,
+				FD5A33532A45FC86007C5EA9 /* ContactRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FDB5EFCD2A45F57700C8EDA1 /* Services */ = {
@@ -156,8 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2583872A454C21006EC8EB /* Preview Assets.xcassets in Resources */,
-				FD2583842A454C21006EC8EB /* Assets.xcassets in Resources */,
+				FD5A33592A460DEA007C5EA9 /* Preview Content in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,12 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1566CB2A4551CA00D0BE6C /* ContactDetailView.swift in Sources */,
+				FD1566CB2A4551CA00D0BE6C /* DetailView.swift in Sources */,
 				FD1566C92A454F8F00D0BE6C /* Person.swift in Sources */,
 				FD1566C72A454F5600D0BE6C /* DataStore.swift in Sources */,
-				FDB5EFCC2A45F0A600C8EDA1 /* NumberListView.swift in Sources */,
-				FD1566CD2A4553F600D0BE6C /* TabView.swift in Sources */,
-				FD2583942A454E6A006EC8EB /* ContactListView.swift in Sources */,
+				FDB5EFCC2A45F0A600C8EDA1 /* NumberView.swift in Sources */,
+				FD1566CD2A4553F600D0BE6C /* RootView.swift in Sources */,
+				FD2583942A454E6A006EC8EB /* ContactsView.swift in Sources */,
+				FD5A33542A45FC86007C5EA9 /* ContactRowView.swift in Sources */,
 				FD2583802A454C20006EC8EB /* ContactListSUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,6 +349,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
