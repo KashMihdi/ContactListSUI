@@ -9,14 +9,15 @@ import SwiftUI
 
 struct TabScreenView: View {
     let contacts = Person.getContactList()
+    let title = "Contact List"
     var body: some View {
         TabView {
-            ContactListView(contacts: contacts)
+            ContactListView(contacts: contacts, title: title)
                 .tabItem {
-                    Image(systemName: "person")
+                    Image(systemName: "person.2")
                     Text("Contacts")
                 }
-            NumberListView(contacts: contacts)
+            NumberListView(contacts: contacts, title: title)
                 .tabItem {
                     Image(systemName: "phone")
                     Text("Numbers")

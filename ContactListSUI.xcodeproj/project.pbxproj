@@ -12,7 +12,6 @@
 		FD1566CB2A4551CA00D0BE6C /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566CA2A4551CA00D0BE6C /* ContactDetailView.swift */; };
 		FD1566CD2A4553F600D0BE6C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1566CC2A4553F600D0BE6C /* TabView.swift */; };
 		FD2583802A454C20006EC8EB /* ContactListSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */; };
-		FD2583822A454C20006EC8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2583812A454C20006EC8EB /* ContentView.swift */; };
 		FD2583842A454C21006EC8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2583832A454C21006EC8EB /* Assets.xcassets */; };
 		FD2583872A454C21006EC8EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2583862A454C21006EC8EB /* Preview Assets.xcassets */; };
 		FD2583942A454E6A006EC8EB /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2583932A454E6A006EC8EB /* ContactListView.swift */; };
@@ -26,7 +25,6 @@
 		FD1566CC2A4553F600D0BE6C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		FD25837C2A454C20006EC8EB /* ContactListSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSUIApp.swift; sourceTree = "<group>"; };
-		FD2583812A454C20006EC8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD2583832A454C21006EC8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2583862A454C21006EC8EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD2583932A454E6A006EC8EB /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
@@ -64,13 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				FD25837F2A454C20006EC8EB /* ContactListSUIApp.swift */,
-				FD2583812A454C20006EC8EB /* ContentView.swift */,
 				FD2583932A454E6A006EC8EB /* ContactListView.swift */,
 				FD1566CA2A4551CA00D0BE6C /* ContactDetailView.swift */,
 				FDB5EFCB2A45F0A600C8EDA1 /* NumberListView.swift */,
 				FD1566CC2A4553F600D0BE6C /* TabView.swift */,
-				FD1566C62A454F5600D0BE6C /* DataStore.swift */,
-				FD1566C82A454F8F00D0BE6C /* Person.swift */,
+				FDB5EFCD2A45F57700C8EDA1 /* Services */,
+				FDB5EFCE2A45F58800C8EDA1 /* Models */,
 				FD2583852A454C21006EC8EB /* Preview Content */,
 			);
 			path = ContactListSUI;
@@ -83,6 +80,22 @@
 				FD2583862A454C21006EC8EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDB5EFCD2A45F57700C8EDA1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD1566C62A454F5600D0BE6C /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDB5EFCE2A45F58800C8EDA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD1566C82A454F8F00D0BE6C /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +170,6 @@
 			files = (
 				FD1566CB2A4551CA00D0BE6C /* ContactDetailView.swift in Sources */,
 				FD1566C92A454F8F00D0BE6C /* Person.swift in Sources */,
-				FD2583822A454C20006EC8EB /* ContentView.swift in Sources */,
 				FD1566C72A454F5600D0BE6C /* DataStore.swift in Sources */,
 				FDB5EFCC2A45F0A600C8EDA1 /* NumberListView.swift in Sources */,
 				FD1566CD2A4553F600D0BE6C /* TabView.swift in Sources */,

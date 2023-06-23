@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NumberListView: View {
     let contacts: [Person]
+    let title: String
     var body: some View {
         NavigationStack {
             List(contacts) { contact in
@@ -33,6 +34,6 @@ struct NumberListView: View {
 
 struct SectionListView_Previews: PreviewProvider {
     static var previews: some View {
-        NumberListView(contacts: Person.getContactList())
+        NumberListView(contacts: Person.getContactList(), title: "Contact List")
     }
 }
