@@ -1,5 +1,5 @@
 //
-//  ContactView.swift
+//  ContactListView.swift
 //  ContactListSUI
 //
 //  Created by Kasharin Mikhail on 23.06.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContactView: View {
+struct ContactListView: View {
     let contacts: [Person]
     var body: some View {
         NavigationStack {
@@ -17,13 +17,13 @@ struct ContactView: View {
                 }
             }
             .listStyle(.plain)
-        .navigationTitle("Contacts")
+            .navigationTitle("Contact List")
         }
     }
 }
 
 struct ContactView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactView(contacts: Person.getContactList())
+        ContactListView(contacts: Person.getContactList())
     }
 }

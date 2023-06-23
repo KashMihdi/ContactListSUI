@@ -11,10 +11,15 @@ struct TabScreenView: View {
     let contacts = Person.getContactList()
     var body: some View {
         TabView {
-            ContactView(contacts: contacts)
+            ContactListView(contacts: contacts)
                 .tabItem {
                     Image(systemName: "person")
                     Text("Contacts")
+                }
+            NumberListView(contacts: contacts)
+                .tabItem {
+                    Image(systemName: "phone")
+                    Text("Numbers")
                 }
         }
     }

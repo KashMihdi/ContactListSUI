@@ -14,10 +14,17 @@ struct ContactDetailView: View {
             Image(systemName: "person.fill")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 400, height: 150)
-            Text(contact.phoneNumber)
-                .fontWeight(.bold)
-            Text(contact.email)
+                .frame(width: 400, height: 180)
+            HStack(spacing: 16) {
+                Image(systemName: "phone")
+                    .foregroundColor(.blue)
+                Text(contact.phoneNumber)
+            }
+            HStack(spacing: 16) {
+                Image(systemName: "tray")
+                    .foregroundColor(.blue)
+                Text(contact.email)
+            }
         }
         .navigationTitle(contact.fullName)
     }
