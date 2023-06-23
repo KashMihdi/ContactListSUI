@@ -10,6 +10,7 @@ import SwiftUI
 struct NumberView: View {
     let contacts: [Person]
     var body: some View {
+        NavigationStack {
             List(contacts) { contact in
                 Section(contact.fullName) {
                     ContactRowView(
@@ -22,7 +23,9 @@ struct NumberView: View {
                     )
                 }
             }
+            .navigationTitle("Contact List")
             .listStyle(.grouped)
+        }
     }
 }
 

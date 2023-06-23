@@ -10,20 +10,17 @@ import SwiftUI
 struct RootView: View {
     let contacts = Person.getContactList()
     var body: some View {
-        NavigationStack {
-            TabView {
-                ContactsView(contacts: contacts)
-                    .tabItem {
-                        Image(systemName: "person.2")
-                        Text("Contacts")
-                    }
-                NumberView(contacts: contacts)
-                    .tabItem {
-                        Image(systemName: "phone")
-                        Text("Numbers")
-                    }
-            }
-            .navigationTitle("Contact List")
+        TabView {
+            ContactsView(contacts: contacts)
+                .tabItem {
+                    Image(systemName: "person.2")
+                    Text("Contacts")
+                }
+            NumberView(contacts: contacts)
+                .tabItem {
+                    Image(systemName: "phone")
+                    Text("Numbers")
+                }
         }
     }
 }

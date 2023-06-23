@@ -10,12 +10,15 @@ import SwiftUI
 struct ContactsView: View {
     let contacts: [Person]
     var body: some View {
-        List(contacts) { contact in
-            NavigationLink(destination: DetailView(contact: contact)) {
-                Text(contact.fullName)
+        NavigationStack {
+            List(contacts) { contact in
+                NavigationLink(destination: DetailView(contact: contact)) {
+                    Text(contact.fullName)
+                }
             }
+            .navigationTitle("Contact List")
+            .listStyle(.plain)
         }
-        .listStyle(.plain)
     }
 }
 
